@@ -10,6 +10,7 @@
     "package": "plasmo package"
   },
   "dependencies": {
+    "dayjs": "^1.11.13",
     "plasmo": "0.89.1",
     "vue": "3.4.15"
   },
@@ -23,6 +24,10 @@
   "manifest": {
     "host_permissions": [
       "https://*/*"
+    ],
+    "permissions": [
+      "tabs",
+      "commands"
     ]
   }
 }
