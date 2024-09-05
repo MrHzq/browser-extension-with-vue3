@@ -1,9 +1,10 @@
 <template>
-  <div>
-    <h2 class="text-center">Welcome to hzq Extension!</h2>
+  <div class="min-w-60 p-4 text-center">
+    <h2 class="font-bold mb-2">Welcome to hzq Extension!</h2>
 
-    <div class="container">
-      {{ now }}
+    <div class="flex justify-center gap-1">
+      <span>当前时间:</span>
+      <span>{{ now }}</span>
     </div>
   </div>
 </template>
@@ -29,14 +30,5 @@ defineOptions({
 </script>
 
 <style>
-.container {
-  min-width: 470px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 47px;
-}
-.text-center {
-  text-align: center;
-}
+@import "./style.css";
 </style>
